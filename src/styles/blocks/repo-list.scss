@@ -1,0 +1,48 @@
+.repo__desc {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.repo__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.repo__title {
+    font-size: 18px;
+    max-width: 215px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    &:hover {
+        font-weight: bold;
+        border-bottom: 1px solid #000;
+        transition: .4s;
+        color: red;
+    }
+}
+
+.repo__rating {
+    max-width: 146px;
+}
+
+.commit_date {
+    max-width: 230px;
+}
+
+.repo__link {
+    max-width: 247px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    &:hover {
+        border-bottom: 1px solid #000;
+        transition: .4s;
+        color: red;
+    }
+}

@@ -1,0 +1,10 @@
+.maincontent {
+    flex: 1;
+    height: 100%;
+    overflow: auto;
+}
+
+.maincontent__container {
+    justify-content: center;
+    height: auto;
+}

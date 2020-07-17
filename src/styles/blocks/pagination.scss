@@ -1,0 +1,46 @@
+.footer__pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__list,
+.pagination__nav {
+    display: flex;
+}
+
+.pagination__nav {
+    width: 200px;
+}
+
+.pagination__list {
+    width: 100%;
+}
+
+.active {
+    background: royalblue;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.pagination__item {
+    width: 30px;
+    padding: 4px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    &:last-child {
+        padding-right: 0;
+    }
+}
+
+.pagination__list_block {
+    overflow: hidden;
+}
+
+.pagination__btn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
